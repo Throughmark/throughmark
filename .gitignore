@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Generated files
+output/
+
+# Test coverage
+coverage/
+
+# OS
+.DS_Store
+
+# Environment
+.env
+.env.local
+/samples/all/
+
+# pnpm
+.pnpm-debug.log
