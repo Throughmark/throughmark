@@ -1,5 +1,6 @@
 import OpenAI from "openai";
 
+import { env } from "../../utils/env.js";
 import { INITIAL_ANALYSIS_PROMPT } from "../analyzer.js";
 import type { LLMClient, LLMResponse, InitialResponse } from "../types.js";
 
@@ -11,7 +12,7 @@ export class OpenAIClient implements LLMClient {
     private apiKey?: string,
     model?: string
   ) {
-    this.apiKey = apiKey || process.env.OPENAI_API_KEY;
+    this.apiKey = apiKey || env.openaiApiKey;
     this.model = model || "gpt-4o";
     this.client = new OpenAI({
       apiKey: this.apiKey,

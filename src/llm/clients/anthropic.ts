@@ -1,19 +1,25 @@
 import Anthropic from "@anthropic-ai/sdk";
 
+import { env } from "../../utils/env.js";
 import { INITIAL_ANALYSIS_PROMPT } from "../analyzer.js";
 import type { LLMClient, LLMResponse, InitialResponse } from "../types.js";
 
 export class AnthropicClient implements LLMClient {
+  private model: string;
+
   constructor(
     private apiKey?: string,
-    private model: string = "claude-3-5-sonnet-latest"
-  ) {}
+    model?: string
+  ) {
+    this.apiKey = apiKey || env.anthropicApiKey;
+    this.model = model || "claude-3-5-sonnet-latest";
+  }
 
   getModel = (): string => this.model;
 
   async analyze(imageBuffer: Buffer, prompt?: string): Promise<LLMResponse> {
     const anthropic = new Anthropic({
-      apiKey: this.apiKey ?? process.env.ANTHROPIC_API_KEY,
+      apiKey: this.apiKey,
     });
 
     const base64Image = imageBuffer.toString("base64");
@@ -63,7 +69,7 @@ export class AnthropicClient implements LLMClient {
   ): Promise<InitialResponse> {
     console.log(`AnthropicClient: Sending images (temp: ${temperature})`);
     const anthropic = new Anthropic({
-      apiKey: this.apiKey ?? process.env.ANTHROPIC_API_KEY,
+      apiKey: this.apiKey,
     });
 
     const fullPrompt = `${INITIAL_ANALYSIS_PROMPT}\n\nAnalyze these images: ${
