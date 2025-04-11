@@ -174,13 +174,13 @@ Throughmark includes two CLI tools for quick testing and batch processing.
 
 ```bash
 # Basic usage with default settings
-yarn start
+pnpm start
 
 # Specify provider and model with custom prompts
-yarn start <image> <provider> <model> "<prompt>"
+pnpm start <image> <provider> <model> "<prompt>"
 # Examples:
-yarn start samples/automobile/car1.jpg openai gpt-4o "Find rust spots"
-yarn start samples/automobile/car1.jpg anthropic claude-3-5-sonnet-latest "Find damage"
+pnpm start samples/automobile/car1.jpg openai gpt-4o "Find rust spots"
+pnpm start samples/automobile/car1.jpg anthropic claude-3-5-sonnet-latest "Find damage"
 ```
 
 The CLI supports a hierarchical prompt configuration:
@@ -196,13 +196,13 @@ Process multiple images in a directory:
 
 ```bash
 # Process all images in a directory
-yarn batch samples/automobile
+pnpm batch samples/automobile
 
 # Specify arguments in order: <directory> <provider> <model> "<prompt>"
-yarn batch samples/automobile openai gpt-4o "Find damage to cars"
+pnpm batch samples/automobile openai gpt-4o "Find damage to cars"
 
 # Default settings if no arguments provided
-yarn batch  # Uses samples/Toothbrush directory that contains ground truth
+pnpm batch  # Uses samples/Toothbrush directory that contains ground truth
 ```
 
 The batch processor:
@@ -323,7 +323,7 @@ levels:
 3. **Command-line argument**:
 
    ```bash
-   yarn start image.jpg openai gpt-4o "Custom prompt"
+   pnpm start image.jpg openai gpt-4o "Custom prompt"
    ```
 
 4. **Default prompts**: Built into the commands
