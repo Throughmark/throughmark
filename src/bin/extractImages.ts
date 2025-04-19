@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env jiti
 
 /**
  * Extract Images Script
