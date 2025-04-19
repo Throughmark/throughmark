@@ -1,10 +1,10 @@
-import eslint from "@eslint/js";
 import tseslint from "@typescript-eslint/eslint-plugin";
 import tsparser from "@typescript-eslint/parser";
-import importPlugin from "eslint-plugin-import";
+import type { Linter } from "eslint";
 import prettierConfig from "eslint-config-prettier";
+import importPlugin from "eslint-plugin-import";
 
-export default [
+const config: Linter.Config[] = [
   // Global ignores
   {
     ignores: ["dist/**", "node_modules/**", "output/**"],
@@ -42,8 +42,8 @@ export default [
       },
     },
     plugins: {
-      "@typescript-eslint": tseslint,
-      import: importPlugin,
+      "@typescript-eslint": tseslint as any,
+      import: importPlugin as any,
     },
     rules: {
       "no-unused-vars": "off",
@@ -82,3 +82,5 @@ export default [
 
   prettierConfig,
 ];
+
+export default config;
