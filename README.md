@@ -4,6 +4,11 @@ Throughmark is an intelligent image analysis system that goes beyond traditional
 computer vision. Instead of fixed categories, it enables ad-hoc, on-demand
 identification of any visual features using the power of large language models.
 
+Unlike systems that use AI to recreate or modify images, Throughmark preserves
+the original image exactly as is, overlaying a dynamic grid system for precise
+spatial identification. This approach ensures perfect image fidelity while
+leveraging off-the-shelf LLMs for analysis.
+
 By overlaying a dynamic grid system and leveraging off-the-shelf LLMs,
 Throughmark can:
 

@@ -14,7 +14,7 @@
     "test:watch": "vitest",
     "dev": "tsc --watch",
     "start": "pnpm build && node dist/bin/cli.js ${1:-samples/misc/world.png} ${2:-openai} ${3:-gpt-4o} ${4:-\"Find all threats\"}",
-    "batch": "pnpm build && node dist/bin/batch.js ${1:-samples/automobile} ${2:-openai} ${3:-gpt-4o} ${4:-\"Highlight toothbrushes\"}",
+    "batch": "pnpm build && node dist/bin/batch.js ${1:-samples/Toothbrush} ${2:-openai} ${3:-gpt-4o} ${4:-\"Highlight toothbrushes\"}",
     "format": "prettier --write .",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
