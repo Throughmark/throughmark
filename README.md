@@ -306,8 +306,8 @@ You can see this in action in the `samples/Toothbrush` directory, or create new
 test sets:
 
 ```bash
-# Extract images and ground truth for a new category
-node src/bin/extractImages.ts Car
+# Run the TypeScript file directly
+npx jiti src/bin/extractImages.ts Car
 ```
 
 Note: The `extractImages.ts` script requires that all images from the Open

@@ -1,17 +1,26 @@
 #!/usr/bin/env node
 
 /**
- * Usage:
- *   Run the script with a target keyword (e.g., "Car") as a command line argument.
- *   Example:
- *     node src/bin/extractImages.js Car
- *   If no argument is provided, "Car" will be used as the default target keyword.
+ * Extract Images Script
  *
- *   The script:
- *     - Reads class descriptions from "../../samples/class-descriptions-boxable.csv".
- *     - Reads annotation data from "../../samples/validation-annotations-bbox.csv".
- *     - Copies images from "../../samples/all/" whose annotation class includes the target keyword
- *       into a folder at "../../samples/<targetKeyword>/".
+ * This script extracts images and their ground truth annotations from the Open Images Dataset
+ * for a specific category.
+ *
+ * Usage:
+ *   npx jiti src/bin/extractImages.ts <category>
+ *
+ * Example:
+ *   npx jiti src/bin/extractImages.ts Car
+ *
+ * Requirements:
+ *   - Images must be placed in samples/all/ directory
+ *   - class-descriptions-boxable.csv and validation-annotations-bbox.csv must be in samples/
+ *
+ * The script will:
+ *   - Read class descriptions from "../../samples/class-descriptions-boxable.csv"
+ *   - Read annotation data from "../../samples/validation-annotations-bbox.csv"
+ *   - Copy images from "../../samples/all/" whose annotation class includes the target keyword
+ *     into a folder at "../../samples/<category>/"
  */
 
 import { createReadStream } from "fs";
