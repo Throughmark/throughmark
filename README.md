@@ -367,3 +367,8 @@ levels:
    - Produces a JSON file with region descriptions, cell coordinates, token
      usage, and cost.
    - Generates a highlighted image that visualizes the detected regions.
+
+## Contributing
+
+We welcome contributions! Please read our
+[Contributing Guidelines](CONTRIBUTING.md) before submitting any changes.
