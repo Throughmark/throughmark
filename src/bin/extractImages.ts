@@ -25,51 +25,56 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Read the target keyword from the command line arguments (default to "Car")
-const TARGET_KEYWORD = process.argv[2] || "Car";
+const TARGET_KEYWORD: string = process.argv[2] || "Car";
 
 // Define paths to CSV files and image directories (assuming 'samples/' is at the project root)
-const CLASS_DESC_CSV = path.join(
+const CLASS_DESC_CSV: string = path.join(
   __dirname,
   "../../samples/class-descriptions-boxable.csv"
 );
-const ANNOTATIONS_CSV = path.join(
+const ANNOTATIONS_CSV: string = path.join(
   __dirname,
   "../../samples/validation-annotations-bbox.csv"
 );
-const ALL_IMAGES_DIR = path.join(__dirname, "../../samples/all");
+const ALL_IMAGES_DIR: string = path.join(__dirname, "../../samples/all");
 // Destination will be created as samples/<targetKeyword>
-const TARGET_DIR = path.join(__dirname, `../../samples/${TARGET_KEYWORD}`);
+const TARGET_DIR: string = path.join(
+  __dirname,
+  `../../samples/${TARGET_KEYWORD}`
+);
 
 /**
  * Loads the class descriptions into a Map where:
  *   key = classId
  *   value = description
  */
-const loadClassDescriptions = async () =>
+const loadClassDescriptions = async (): Promise<Map<string, string>> =>
   new Promise((resolve, reject) => {
-    const classMap = new Map();
+    const classMap = new Map<string, string>();
     createReadStream(CLASS_DESC_CSV)
       .pipe(parse({ delimiter: ",", trim: true }))
-      .on("data", row => {
+      .on("data", (row: string[]) => {
         const [classId, description] = row;
         if (classId && description) {
           classMap.set(classId, description);
         }
       })
       .on("end", () => resolve(classMap))
-      .on("error", error => reject(error));
+      .on("error", (error: Error) => reject(error));
   });
 
 /**
  * Processes the annotations CSV and returns a Set of image IDs
  * that have an annotation whose class description contains the TARGET_KEYWORD.
  */
-const processAnnotations = async classMap =>
+const processAnnotations = async (
+  classMap: Map<string, string>
+): Promise<Set<string>> =>
   new Promise((resolve, reject) => {
-    const imageIds = new Set();
+    const imageIds = new Set<string>();
     createReadStream(ANNOTATIONS_CSV)
       .pipe(parse({ delimiter: ",", trim: true }))
-      .on("data", row => {
+      .on("data", (row: string[]) => {
         // Expected row format: [ imageId, annotationType, classId, ... ]
         const imageId = row[0];
         const classId = row[2];
@@ -84,13 +89,13 @@ const processAnnotations = async classMap =>
         }
       })
       .on("end", () => resolve(imageIds))
-      .on("error", error => reject(error));
+      .on("error", (error: Error) => reject(error));
   });
 
 /**
  * Copies image files identified by imageIds from ALL_IMAGES_DIR to TARGET_DIR.
  */
-const copyImages = async imageIds => {
+const copyImages = async (imageIds: Set<string>): Promise<void> => {
   // Ensure the target directory exists.
   await fsPromises.mkdir(TARGET_DIR, { recursive: true });
 
@@ -101,12 +106,16 @@ const copyImages = async imageIds => {
       await fsPromises.copyFile(srcPath, destPath);
       console.log(`Copied ${imageId}.jpg`);
     } catch (error) {
-      console.error(`Error copying ${imageId}.jpg: ${error.message}`);
+      if (error instanceof Error) {
+        console.error(`Error copying ${imageId}.jpg: ${error.message}`);
+      } else {
+        console.error(`Error copying ${imageId}.jpg: Unknown error`);
+      }
     }
   }
 };
 
-const main = async () => {
+const main = async (): Promise<void> => {
   try {
     console.log(`Target keyword: "${TARGET_KEYWORD}"`);
     console.log("Loading class descriptions...");
@@ -122,7 +131,11 @@ const main = async () => {
     await copyImages(imageIds);
     console.log("Done.");
   } catch (error) {
-    console.error("Error:", error);
+    if (error instanceof Error) {
+      console.error("Error:", error.message);
+    } else {
+      console.error("Unknown error occurred");
+    }
   }
 };
 

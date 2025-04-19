@@ -307,8 +307,14 @@ test sets:
 
 ```bash
 # Extract images and ground truth for a new category
-node src/bin/extractImages.js Car
+node src/bin/extractImages.ts Car
 ```
+
+Note: The `extractImages.ts` script requires that all images from the Open
+Images Dataset be placed in the `samples/all/` directory. These images are not
+included in the GitHub repository due to their large number and size. You'll
+need to download the images separately and place them in this directory before
+using the extraction feature.
 
 When converting bounding boxes to grid cells, Throughmark:
 
