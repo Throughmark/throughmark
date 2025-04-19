@@ -1,4 +1,4 @@
-# Throughmark
+# Throughmark: Describe features, get image annotations
 
 Throughmark is an intelligent image analysis system that goes beyond traditional
 computer vision. Instead of fixed categories, it enables ad-hoc, on-demand
