@@ -12,7 +12,7 @@ export class AnthropicClient implements LLMClient {
     model?: string
   ) {
     this.apiKey = apiKey || env.anthropicApiKey;
-    this.model = model || "claude-3-5-sonnet-latest";
+    this.model = model || "claude-3-7-sonnet-latest";
   }
 
   getModel = (): string => this.model;

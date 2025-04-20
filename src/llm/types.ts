@@ -1,5 +1,5 @@
 export type OpenAIModel = "gpt-4o" | "gpt-4o-mini";
-export type AnthropicModel = "claude-3-5-sonnet-latest";
+export type AnthropicModel = "claude-3-7-sonnet-latest";
 
 export type AnnotationType = "highlight" | "circle" | "arrow";
 
@@ -16,7 +16,7 @@ export const MODEL_PRICING = {
     input: 0.15, // $0.15/1M tokens
     output: 0.6, // $0.60/1M tokens
   },
-  "claude-3-5-sonnet-latest": {
+  "claude-3-7-sonnet-latest": {
     input: 3.0, // $3.00/1M tokens
     output: 15.0, // $15.00/1M tokens
   },

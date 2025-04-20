@@ -169,7 +169,7 @@ export class ImageAnalyzer {
     // Provide a default model if one is not specified so that during batch mode
     // (or when no model is passed) we never call the client with an undefined model.
     const defaultModel =
-      config.provider === "openai" ? "gpt-4o" : "claude-3-5-sonnet-latest";
+      config.provider === "openai" ? "gpt-4o" : "claude-3-7-sonnet-latest";
     const model = config.model || defaultModel;
 
     console.log("Selected model:", model);
