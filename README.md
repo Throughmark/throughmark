@@ -3,7 +3,7 @@
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |  <img alt="Before" src="https://private-user-images.githubusercontent.com/2158187/435365462-da7a73dc-8e48-4a0f-9e26-d55ab332db24.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxMjU1NzYsIm5iZiI6MTc0NTEyNTI3NiwicGF0aCI6Ii8yMTU4MTg3LzQzNTM2NTQ2Mi1kYTdhNzNkYy04ZTQ4LTRhMGYtOWUyNi1kNTVhYjMzMmRiMjQuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MjBUMDUwMTE2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9Nzc5MmY0NThlNTY2YWMzOTc5ODRjNGIxYmRlNDkxZjQzNmZjY2YzYzdlZmM4NTgzZjEwYWRhZTExYzk0ZjE0YSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.m8SDNQy2AVkLnED7Dg-ZUSEPLLCCU0ikn088oiMYsvk"> Input: image and prompt "find toothbrushes"  | <img alt="After" src="https://private-user-images.githubusercontent.com/2158187/435365446-338fb607-4ea9-44b7-90b7-15e8a85402a6.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxMjU1NzYsIm5iZiI6MTc0NTEyNTI3NiwicGF0aCI6Ii8yMTU4MTg3LzQzNTM2NTQ0Ni0zMzhmYjYwNy00ZWE5LTQ0YjctOTBiNy0xNWU4YTg1NDAyYTYuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MjBUMDUwMTE2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NzIwZjUyNjY3ZmI3ZWMxMjc1ZjUyMjlkMmU2NWViZWM1YjU4OTg3OTY3YTU5OWFjYjQzNmFlYmY4Yjc2ZmIzNyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.uyHIFt3Co_r9qjIrCeLTYkjD5yFHxJjJ_OVZRUKq9Kg"> Output: Annotation, labeling, and highlighting |
-| <img src="https://private-user-images.githubusercontent.com/2158187/435367576-c9da486e-8c2f-433b-b921-8b76c1f1c1f2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxMjU3MzgsIm5iZiI6MTc0NTEyNTQzOCwicGF0aCI6Ii8yMTU4MTg3LzQzNTM2NzU3Ni1jOWRhNDg2ZS04YzJmLTQzM2ItYjkyMS04Yjc2YzFmMWMxZjIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MjBUMDUwMzU4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MTNlNjBkNDI3ZmYxYzYwZjdhMTkzYzRjOGU1NGRjOTJlNmYxMWVhMjJlMWY4M2RkNjBjZTZhNGM1NmMyZWUyOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.W7cRfk04EZnIgGuE9wLRTIdJ-thukpCHwR_o3uW1z80"> Input: image and prompt "where is Atlantis rumored to be?" |<img src="https://private-user-images.githubusercontent.com/2158187/435367560-34a4f9f9-bd4f-4199-85bf-f2eb035abd20.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxMjU3MzgsIm5iZiI6MTc0NTEyNTQzOCwicGF0aCI6Ii8yMTU4MTg3LzQzNTM2NzU2MC0zNGE0ZjlmOS1iZDRmLTQxOTktODViZi1mMmViMDM1YWJkMjAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MjBUMDUwMzU4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YTlmNzEzZDU2NTg4OWY5YjViZGJkNWY0MDhkNTA5NjU1MTkwZjM1YThjYjJhNzk3MDQyNjQ2ZTZkMGU4OGRlNyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.RfTxj5dl0DsdUKxMM2oJBcL25ex9zhWg5mOTMQrSwbU"> Output                           |
+| <img src="https://private-user-images.githubusercontent.com/2158187/435367576-c9da486e-8c2f-433b-b921-8b76c1f1c1f2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxMjU3MzgsIm5iZiI6MTc0NTEyNTQzOCwicGF0aCI6Ii8yMTU4MTg3LzQzNTM2NzU3Ni1jOWRhNDg2ZS04YzJmLTQzM2ItYjkyMS04Yjc2YzFmMWMxZjIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MjBUMDUwMzU4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MTNlNjBkNDI3ZmYxYzYwZjdhMTkzYzRjOGU1NGRjOTJlNmYxMWVhMjJlMWY4M2RkNjBjZTZhNGM1NmMyZWUyOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.W7cRfk04EZnIgGuE9wLRTIdJ-thukpCHwR_o3uW1z80"> Input: image and prompt "where is Atlantis rumored to be?" |                           <img src="https://private-user-images.githubusercontent.com/2158187/435367560-34a4f9f9-bd4f-4199-85bf-f2eb035abd20.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxMjU3MzgsIm5iZiI6MTc0NTEyNTQzOCwicGF0aCI6Ii8yMTU4MTg3LzQzNTM2NzU2MC0zNGE0ZjlmOS1iZDRmLTQxOTktODViZi1mMmViMDM1YWJkMjAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MjBUMDUwMzU4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YTlmNzEzZDU2NTg4OWY5YjViZGJkNWY0MDhkNTA5NjU1MTkwZjM1YThjYjJhNzk3MDQyNjQ2ZTZkMGU4OGRlNyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.RfTxj5dl0DsdUKxMM2oJBcL25ex9zhWg5mOTMQrSwbU"> Output                           |
 |                       <img src="https://private-user-images.githubusercontent.com/2158187/435367913-cb4a7800-6d3a-40f7-a74e-8ff1bd139872.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxMjU3MzgsIm5iZiI6MTc0NTEyNTQzOCwicGF0aCI6Ii8yMTU4MTg3LzQzNTM2NzkxMy1jYjRhNzgwMC02ZDNhLTQwZjctYTc0ZS04ZmYxYmQxMzk4NzIuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MjBUMDUwMzU4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ODdlOGFmNjBkMTRlYzQ1MmI0ZGY5ZWE5OTY2NzZkMDNhYWM1YTU3MDM3YzkxNDczMTg1NmQwZTY4ZGIwYmZmNSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.pALMV_b9rUgG729kgquPdQQQLxIdFkdtIBV2mxC9mYc"> "Find threats"                       |                           <img src="https://private-user-images.githubusercontent.com/2158187/435367904-4224d961-21c6-4b6e-b5a1-e5aac4891360.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxMjU3MzgsIm5iZiI6MTc0NTEyNTQzOCwicGF0aCI6Ii8yMTU4MTg3LzQzNTM2NzkwNC00MjI0ZDk2MS0yMWM2LTRiNmUtYjVhMS1lNWFhYzQ4OTEzNjAuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MjBUMDUwMzU4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NTZmZGQ5MzE2YzI4OGJhNTljYjA1Yjg5NjU1NjkxNTdkYjUwYjE2ZjE3MmQ0ZGE0YjBkMWE3YzQwY2VmNjhkYyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.K91ZTq8yl6tFPbxJbrMvzTbOY6QC9PjKT_wIxEA1kHo"> Output                           |
 |                       <img src="https://private-user-images.githubusercontent.com/2158187/435368560-0d46dd50-c8bd-424c-a3cd-acbf1ff56401.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxMjU3MzgsIm5iZiI6MTc0NTEyNTQzOCwicGF0aCI6Ii8yMTU4MTg3LzQzNTM2ODU2MC0wZDQ2ZGQ1MC1jOGJkLTQyNGMtYTNjZC1hY2JmMWZmNTY0MDEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MjBUMDUwMzU4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9N2I5NjkyNmY4NzUwMzlhMzJjYTk1MGJlYzFmYTllMDM0MWI5YjFiY2VkY2E5MTU2MThiNTQwOGU5NjFjNjViNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.tPFqxuN8gvq7Wiq9g-l1w25pi0NJ7YhHLHl5DwHVqDk"> "Find damage"                        |                           <img src="https://private-user-images.githubusercontent.com/2158187/435368568-f7b2e36a-b72c-4596-a3d6-5890e954f387.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxMjU3MzgsIm5iZiI6MTc0NTEyNTQzOCwicGF0aCI6Ii8yMTU4MTg3LzQzNTM2ODU2OC1mN2IyZTM2YS1iNzJjLTQ1OTYtYTNkNi01ODkwZTk1NGYzODcuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MjBUMDUwMzU4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YzE5YTNlNDRjODEyMDU3M2Q3MzNjYjE2NDA0ZWRlYjQ1MDRkOTljY2Q2MjM3Nzc1YTM2YjgxMDk3ZGMxYmJhNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.y0rAUG2C2iDp4IoWYMgE9iAymF8D2IfxcbybN4ic5YE"> Output                           |
 |                       <img src="https://private-user-images.githubusercontent.com/2158187/435368539-8509871d-db4d-4819-9415-430f784d2d5a.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxMjU3MzgsIm5iZiI6MTc0NTEyNTQzOCwicGF0aCI6Ii8yMTU4MTg3LzQzNTM2ODUzOS04NTA5ODcxZC1kYjRkLTQ4MTktOTQxNS00MzBmNzg0ZDJkNWEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MjBUMDUwMzU4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MDA3MDJhZDkxMzQxZGM0NGNiYzM0YmY0MzhlNzE1YjBiNTAyY2JhN2JhZjEwMjk3ZmU0YjA2NTVlNmJmOGE4ZCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.bPS4sgG2m6cThiHy7ys02oiNjOn05M_5vvEdqtdACAA"> "Find damage"                        |                           <img src="https://private-user-images.githubusercontent.com/2158187/435368535-98851151-7551-4a54-889d-934d34b53a98.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxMjU3MzgsIm5iZiI6MTc0NTEyNTQzOCwicGF0aCI6Ii8yMTU4MTg3LzQzNTM2ODUzNS05ODg1MTE1MS03NTUxLTRhNTQtODg5ZC05MzRkMzRiNTNhOTguanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MjBUMDUwMzU4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MjQ1OGEwY2FhMDY3NjkyMjYwY2M5YjkyNGEzMDhjODE4MTljZDljNGVkZjJhMDZkNWZlMjdhMWZhZjA0YTdmNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.e5Ech7FjOLlvSLO9jKl6w8X0LjqZ-XcL-yiNTRYUAws"> Output                           |
@@ -66,27 +66,54 @@ of relevant regions.
 
 ## Installation
 
-1. Clone the repository.
-2. Install dependencies:
+```bash
+# Using pnpm (recommended)
+pnpm add throughmark
 
+# Using npm
+npm install throughmark
+
+# Using yarn
+yarn add throughmark
+```
+
+### Environment Setup
+
+Throughmark requires API keys for the LLM providers you plan to use. The package
+looks for environment variables in the following order:
+
+1. `.env.local` (local overrides)
+2. `.env.development`, `.env.test`, or `.env.production` (environment-specific)
+3. `.env` (default)
+
+Create a `.env` file in your project root with the following variables:
+
+```bash
+# For OpenAI
+OPENAI_API_KEY=your_key_here
+
+# For Anthropic
+ANTHROPIC_API_KEY=your_key_here
+```
+
+Note: You only need to include the API key(s) for the provider(s) you plan to
+use.
+
+#### CLI Usage
+
+When using Throughmark as a CLI tool, you can set the environment variables in
+several ways:
+
+1. Create a `.env` file in the directory where you're running the commands
+2. Set them directly in your shell:
    ```bash
-   pnpm install
+   export OPENAI_API_KEY=your_key_here
+   export ANTHROPIC_API_KEY=your_key_here
    ```
-
-3. Set up your environment:
-
-   - Copy `.env.sample` to `.env`:
-     ```bash
-     cp .env.sample .env
-     ```
-   - Add your API keys to `.env`:
-
+3. Use them inline with the command:
    ```bash
-   ANTHROPIC_API_KEY=your_key_here  # For Anthropic
-   OPENAI_API_KEY=your_key_here     # For OpenAI
+   OPENAI_API_KEY=your_key_here pnpm start
    ```
-
-   Note: You only need the API key(s) for the provider(s) you plan to use.
 
 ## API Usage
 
