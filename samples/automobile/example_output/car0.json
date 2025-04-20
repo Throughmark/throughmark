@@ -1,0 +1,55 @@
+{
+  "regions": [
+    {
+      "title": "Front damage to gray car",
+      "description": "Visible damage at the front of the gray car",
+      "cells": [
+        "C2",
+        "C2",
+        "C2",
+        "C3",
+        "C3",
+        "C3",
+        "C3",
+        "C4",
+        "C4",
+        "D2",
+        "D2",
+        "D3",
+        "D3",
+        "D3",
+        "D3",
+        "D4",
+        "D4"
+      ]
+    },
+    {
+      "title": "Rear damage to orange vehicle",
+      "description": "Visible damage at the rear of the orange vehicle",
+      "cells": [
+        "C8",
+        "C8",
+        "C8",
+        "C8",
+        "C9",
+        "C9",
+        "C9",
+        "D8",
+        "D8",
+        "D8",
+        "D8",
+        "D9",
+        "D9",
+        "D9"
+      ]
+    }
+  ],
+  "summary": "The image shows damage to two vehicles: significant front damage to a gray car and rear damage to an orange vehicle. The identified cells accurately capture these features.",
+  "tokens": {
+    "input": 8702,
+    "output": 448,
+    "total": 9150,
+    "cost": 0.026235,
+    "modelName": "gpt-4o"
+  }
+}

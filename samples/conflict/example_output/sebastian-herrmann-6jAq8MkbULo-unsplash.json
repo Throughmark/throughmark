@@ -1,0 +1,41 @@
+{
+  "regions": [
+    {
+      "title": "Central Conflict",
+      "description": "Area of primary discussion or disagreement.",
+      "cells": [
+        "C5",
+        "C5",
+        "C5",
+        "C6",
+        "C6",
+        "C6",
+        "C7",
+        "C7",
+        "D5",
+        "D5",
+        "D5",
+        "D6",
+        "D6",
+        "D6",
+        "D7",
+        "D7",
+        "D7",
+        "E6",
+        "E6",
+        "E6",
+        "E7",
+        "E7",
+        "E7"
+      ]
+    }
+  ],
+  "summary": "The identified region represents the central area of conflict or discussion, with a focus on the interaction between individuals. One cell was removed due to lower confidence.",
+  "tokens": {
+    "input": 5604,
+    "output": 346,
+    "total": 5950,
+    "cost": 0.01747,
+    "modelName": "gpt-4o"
+  }
+}

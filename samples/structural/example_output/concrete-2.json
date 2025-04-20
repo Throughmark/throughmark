@@ -1,0 +1,62 @@
+{
+  "regions": [
+    {
+      "title": "Wall and corner damage",
+      "description": "Visible signs of structural damage or weakness along the wall and corner.",
+      "cells": [
+        "A6",
+        "A6",
+        "A6",
+        "A7",
+        "A7",
+        "B6",
+        "B6",
+        "B7",
+        "B7",
+        "B7",
+        "C6",
+        "C6",
+        "C6",
+        "C7",
+        "C7",
+        "C7",
+        "C7",
+        "D6",
+        "D6",
+        "D6",
+        "D6",
+        "D7",
+        "D7",
+        "D7",
+        "D7",
+        "E5",
+        "E5",
+        "E5",
+        "E5",
+        "E6",
+        "E6",
+        "E6",
+        "E6",
+        "E7",
+        "E7",
+        "E7",
+        "F3",
+        "F3",
+        "F4",
+        "F4",
+        "F4",
+        "F5",
+        "F5",
+        "F5"
+      ]
+    }
+  ],
+  "summary": "The identified region shows clear signs of structural damage or weakness, particularly along the wall and corner. Most cells retained due to high confidence of damage presence.",
+  "tokens": {
+    "input": 4161,
+    "output": 535,
+    "total": 4696,
+    "cost": 0.0157525,
+    "modelName": "gpt-4o"
+  }
+}
