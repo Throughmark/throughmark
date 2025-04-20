@@ -173,7 +173,7 @@ Set your API keys as described above.
 
 - **provider**: Which LLM provider to use ("openai" or "anthropic").
 - **model**: The model to use (defaults to `gpt-4o` for OpenAI and
-  `claude-3-5-sonnet-latest` for Anthropic).
+  `claude-3-7-sonnet-latest` for Anthropic).
 - **numPasses**: Number of initial analyses to run (default is **3**). Higher
   values may improve accuracy but also increase cost.
 
@@ -197,7 +197,7 @@ pnpm start
 pnpm start <image> <provider> <model> "<prompt>"
 # Examples:
 pnpm start samples/automobile/car1.jpg openai gpt-4o "Find rust spots"
-pnpm start samples/automobile/car1.jpg anthropic claude-3-5-sonnet-latest "Find damage"
+pnpm start samples/automobile/car1.jpg anthropic claude-3-7-sonnet-latest "Find damage"
 ```
 
 The CLI supports a hierarchical prompt configuration:

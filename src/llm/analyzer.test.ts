@@ -127,7 +127,7 @@ describe("ImageAnalyzer", () => {
       );
       const mockTokens = { input: 1000, output: 100 };
 
-      // claude-3-sonnet rates: $3.00/1M input, $15.00/1M output
+      // claude-3-7-sonnet-latest rates: $3.00/1M input, $15.00/1M output
       const cost = analyzer["calculateCost"](mockTokens);
       expect(cost).toBeCloseTo(0.003 + 0.0015); // $0.0045
     });
