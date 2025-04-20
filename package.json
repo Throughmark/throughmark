@@ -49,7 +49,7 @@
     "lint:fix": "eslint . --fix",
     "prepare": "pnpm build",
     "prepublishOnly": "pnpm test && pnpm lint",
-    "release": "pnpm build && npm publish && git tag v$(node -p 'require(\"./package.json\").version') && git push origin v$(node -p 'require(\"./package.json\").version') && gh release create v$(node -p 'require(\"./package.json\").version')"
+    "release": "pnpm build && git checkout master && git merge develop && npm publish --access public && git tag v$(node -p 'require(\"./package.json\").version') && git push origin master && git push origin v$(node -p 'require(\"./package.json\").version') && gh release create v$(node -p 'require(\"./package.json\").version') && git checkout develop"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
