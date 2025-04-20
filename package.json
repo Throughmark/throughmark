@@ -1,6 +1,6 @@
 {
   "name": "throughmark",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Describe features to annotate images",
   "type": "module",
   "main": "dist/index.js",
@@ -48,7 +48,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepare": "pnpm build",
-    "prepublishOnly": "pnpm test && pnpm lint"
+    "prepublishOnly": "pnpm test && pnpm lint",
+    "release": "pnpm build && npm publish && git tag v$(node -p 'require(\"./package.json\").version') && git push origin v$(node -p 'require(\"./package.json\").version') && gh release create v$(node -p 'require(\"./package.json\").version')"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
@@ -69,7 +70,8 @@
     "jiti": "^2.4.2",
     "prettier": "^3.5.3",
     "typescript": "^5.8.3",
-    "vitest": "^3.1.1"
+    "vitest": "^3.1.1",
+    "@github/cli": "^2.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
