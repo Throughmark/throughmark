@@ -1,6 +1,6 @@
 {
   "name": "throughmark",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Describe features to annotate images",
   "type": "module",
   "main": "dist/index.js",
