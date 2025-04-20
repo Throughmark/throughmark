@@ -25,9 +25,10 @@
 
 import { createReadStream } from "fs";
 import { promises as fsPromises } from "fs";
-import { parse } from "csv-parse";
 import path from "path";
 import { fileURLToPath } from "url";
+
+import { parse } from "csv-parse";
 
 // Set up __dirname for ES modules
 const __filename = fileURLToPath(import.meta.url);
