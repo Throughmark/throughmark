@@ -1,0 +1,47 @@
+{
+  "regions": [
+    {
+      "title": "Toothbrushes in a cup",
+      "description": "Cluster of toothbrushes",
+      "cells": [
+        "A6",
+        "A6",
+        "A6",
+        "A6",
+        "A7",
+        "A7",
+        "A7",
+        "A7",
+        "B5",
+        "B5",
+        "B5",
+        "B6",
+        "B6",
+        "B6",
+        "B6",
+        "B7",
+        "B7",
+        "B7",
+        "B7",
+        "C5",
+        "C5",
+        "C5",
+        "C5",
+        "C6",
+        "C6",
+        "C6",
+        "C6",
+        "C7",
+        "C7"
+      ]
+    }
+  ],
+  "summary": "The toothbrushes are mostly grouped in the central region of the image, primarily in cells A6, A7, B5, B6, B7, C5, C6, and C7.",
+  "tokens": {
+    "input": 8691,
+    "output": 401,
+    "total": 9092,
+    "cost": 0.0257375,
+    "modelName": "gpt-4o"
+  }
+}

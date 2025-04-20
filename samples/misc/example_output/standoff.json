@@ -1,0 +1,42 @@
+{
+  "regions": [
+    {
+      "title": "Left Figure",
+      "description": "Area containing the left figure",
+      "cells": [
+        "D1",
+        "D1",
+        "D1",
+        "D1"
+      ]
+    },
+    {
+      "title": "Center Figure",
+      "description": "Area containing the center figure",
+      "cells": [
+        "D4",
+        "D4",
+        "D4",
+        "D4"
+      ]
+    },
+    {
+      "title": "Right Figure",
+      "description": "Area containing the right figure",
+      "cells": [
+        "D8",
+        "D8",
+        "D8",
+        "D8"
+      ]
+    }
+  ],
+  "summary": "All identified cells correspond to figures in the scene and are grouped accordingly.",
+  "tokens": {
+    "input": 8635,
+    "output": 269,
+    "total": 8904,
+    "cost": 0.0242775,
+    "modelName": "gpt-4o"
+  }
+}

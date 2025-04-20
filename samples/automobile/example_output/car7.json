@@ -1,0 +1,53 @@
+{
+  "regions": [
+    {
+      "title": "Rear Vehicle Damage",
+      "description": "Visible damage on the back of the vehicle and surrounding area",
+      "cells": [
+        "C8",
+        "C8",
+        "C8",
+        "C9",
+        "C9",
+        "C9",
+        "D7",
+        "D7",
+        "D8",
+        "D8",
+        "D8",
+        "D8",
+        "D9",
+        "D9",
+        "D9",
+        "D9",
+        "D10",
+        "D10",
+        "D10",
+        "E7",
+        "E7",
+        "E8",
+        "E8",
+        "E9",
+        "E9",
+        "E9",
+        "E10",
+        "E10",
+        "E10",
+        "F8",
+        "F8",
+        "F9",
+        "F9",
+        "F10",
+        "F10"
+      ]
+    }
+  ],
+  "summary": "The analysis identified a concentrated area of vehicle damage primarily located at the rear of the vehicle and its immediate surroundings.",
+  "tokens": {
+    "input": 5654,
+    "output": 491,
+    "total": 6145,
+    "cost": 0.019045,
+    "modelName": "gpt-4o"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "regions": [
+    {
+      "title": "Primary Conflict Region",
+      "description": "Area depicting the primary conflict",
+      "cells": [
+        "G2",
+        "G2",
+        "G2",
+        "G3",
+        "G3",
+        "G3",
+        "G3",
+        "G4",
+        "G4",
+        "G4",
+        "G4",
+        "G5",
+        "G5",
+        "G5",
+        "H2",
+        "H2",
+        "H2",
+        "H3",
+        "H3",
+        "H3",
+        "H3",
+        "H4",
+        "H4",
+        "H4",
+        "H4",
+        "H5",
+        "H5",
+        "H5"
+      ]
+    }
+  ],
+  "summary": "All identified cells are connected and depict the primary conflict region without any removals.",
+  "tokens": {
+    "input": 8679,
+    "output": 339,
+    "total": 9018,
+    "cost": 0.025087500000000002,
+    "modelName": "gpt-4o"
+  }
+}

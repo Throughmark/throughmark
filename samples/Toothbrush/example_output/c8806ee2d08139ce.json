@@ -1,0 +1,73 @@
+{
+  "regions": [
+    {
+      "title": "Left Toothbrush",
+      "description": "The left toothbrush including the head and handle.",
+      "cells": [
+        "B2",
+        "B2",
+        "B2",
+        "B2",
+        "C2",
+        "C2",
+        "C2",
+        "C2",
+        "D2",
+        "D2",
+        "D2",
+        "D3",
+        "E3",
+        "E3",
+        "E3",
+        "E3",
+        "F3",
+        "F3",
+        "F3",
+        "F3",
+        "G3",
+        "G3",
+        "G3",
+        "G3"
+      ]
+    },
+    {
+      "title": "Right Toothbrush",
+      "description": "The right toothbrush including the head and handle.",
+      "cells": [
+        "B5",
+        "B5",
+        "B5",
+        "C5",
+        "C5",
+        "C5",
+        "C5",
+        "D5",
+        "D5",
+        "D5",
+        "D5",
+        "E5",
+        "E5",
+        "E5",
+        "E5",
+        "F5",
+        "F5",
+        "F5",
+        "F5",
+        "G5",
+        "G5",
+        "G5",
+        "G5",
+        "G4",
+        "G4"
+      ]
+    }
+  ],
+  "summary": "Two toothbrushes are identified and grouped into two separate regions based on their positions.",
+  "tokens": {
+    "input": 8754,
+    "output": 564,
+    "total": 9318,
+    "cost": 0.027525,
+    "modelName": "gpt-4o"
+  }
+}

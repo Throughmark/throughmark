@@ -1,0 +1,46 @@
+{
+  "regions": [
+    {
+      "title": "Threatening Object",
+      "description": "Handgun being held",
+      "cells": [
+        "D7",
+        "D7",
+        "D7",
+        "D8",
+        "D8",
+        "D8",
+        "E7",
+        "E7",
+        "E7",
+        "E8",
+        "E8",
+        "E8",
+        "E8"
+      ]
+    },
+    {
+      "title": "Person Holding Object",
+      "description": "Person holding the threatening object",
+      "cells": [
+        "D1",
+        "D1",
+        "E1",
+        "E1",
+        "E1",
+        "F1",
+        "F1",
+        "F2",
+        "F2"
+      ]
+    }
+  ],
+  "summary": "The image shows a person holding a handgun, which is identified as the primary threat.",
+  "tokens": {
+    "input": 5605,
+    "output": 342,
+    "total": 5947,
+    "cost": 0.0174325,
+    "modelName": "gpt-4o"
+  }
+}

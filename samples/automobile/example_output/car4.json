@@ -1,0 +1,24 @@
+{
+  "regions": [
+    {
+      "title": "Vehicle Damage",
+      "description": "Area with visible damage on the vehicle",
+      "cells": [
+        "E6",
+        "E6",
+        "E7",
+        "E7",
+        "F7",
+        "F7"
+      ]
+    }
+  ],
+  "summary": "The region identified contains visible damage to the vehicle, while other cells were removed due to lack of clear evidence.",
+  "tokens": {
+    "input": 8651,
+    "output": 337,
+    "total": 8988,
+    "cost": 0.024997500000000002,
+    "modelName": "gpt-4o"
+  }
+}

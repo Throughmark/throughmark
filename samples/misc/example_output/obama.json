@@ -1,0 +1,37 @@
+{
+  "regions": [
+    {
+      "title": "Shoulder Region",
+      "description": "Area containing shoulders",
+      "cells": [
+        "C1",
+        "C1",
+        "D1",
+        "D1",
+        "D2",
+        "D2",
+        "D2",
+        "C3",
+        "C3",
+        "C3",
+        "C4",
+        "C4",
+        "C4",
+        "C5",
+        "C5",
+        "D5",
+        "D5",
+        "D5",
+        "D5"
+      ]
+    }
+  ],
+  "summary": "The highlighted regions accurately represent the shoulder area.",
+  "tokens": {
+    "input": 8656,
+    "output": 274,
+    "total": 8930,
+    "cost": 0.02438,
+    "modelName": "gpt-4o"
+  }
+}

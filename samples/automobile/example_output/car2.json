@@ -1,0 +1,28 @@
+{
+  "regions": [
+    {
+      "title": "Rear bumper damage",
+      "description": "Visible damage on the rear bumper area",
+      "cells": [
+        "H3",
+        "H3",
+        "I3",
+        "I3",
+        "I3",
+        "I4",
+        "I4",
+        "I4",
+        "I5",
+        "I5"
+      ]
+    }
+  ],
+  "summary": "All identified cells with visible damage on the rear bumper were retained.",
+  "tokens": {
+    "input": 8639,
+    "output": 265,
+    "total": 8904,
+    "cost": 0.024247499999999998,
+    "modelName": "gpt-4o"
+  }
+}

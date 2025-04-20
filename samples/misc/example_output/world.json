@@ -1,0 +1,26 @@
+{
+  "regions": [
+    {
+      "title": "Rumored Location of Atlantis",
+      "description": "Area highlighted for potential location of Atlantis",
+      "cells": [
+        "D8",
+        "D8",
+        "D8",
+        "D8",
+        "E8",
+        "E8",
+        "E8",
+        "E8"
+      ]
+    }
+  ],
+  "summary": "The highlighted region in cells D8 and E8 is where Atlantis is rumored to be.",
+  "tokens": {
+    "input": 11708,
+    "output": 209,
+    "total": 11917,
+    "cost": 0.03136,
+    "modelName": "gpt-4o"
+  }
+}
