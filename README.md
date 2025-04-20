@@ -1,11 +1,18 @@
 # Throughmark: Describe features, get image annotations
 
 Let's start with some examples:
-|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/automobile/example_output/car0.jpg?raw=true"><br/>**"Find damage"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/Toothbrush/example_output/a459749f4e5769bd.jpg?raw=true"><br/>**"Find toothbrushes"**|
-|:--:|:--:|
-|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/structural/example_output/logs.jpg?raw=true"><br/>**"Find damage"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/conflict/example_output/fylkesarkivet-i-vestland-0tE9dbyGmkQ-unsplash.jpg?raw=true"><br/>**"Find primary conflict"**|
-|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/structural/example_output/apt.jpg?raw=true"><br/>**"Find damage"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/structural/example_output/house1.jpg?raw=true"><br/>**"Find damage"**|
-|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/misc/example_output/standoff.jpg?raw=true"><br/>**"Find threats"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/misc/example_output/world.png?raw=true"><br/>**"Find Atlantis"**|
+|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/automobile/example_output/car0.jpg?raw=true"><br/>**"Find
+damage"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/Toothbrush/example_output/a459749f4e5769bd.jpg?raw=true"><br/>**"Find
+toothbrushes"**| |:--:|:--:|
+|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/structural/example_output/logs.jpg?raw=true"><br/>**"Find
+damage"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/conflict/example_output/fylkesarkivet-i-vestland-0tE9dbyGmkQ-unsplash.jpg?raw=true"><br/>**"Find
+primary conflict"**|
+|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/structural/example_output/apt.jpg?raw=true"><br/>**"Find
+damage"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/structural/example_output/house1.jpg?raw=true"><br/>**"Find
+damage"**|
+|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/misc/example_output/standoff.jpg?raw=true"><br/>**"Find
+threats"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/misc/example_output/world.png?raw=true"><br/>**"Find
+Atlantis"**|
 
 Throughmark is an intelligent image analysis system that goes beyond traditional
 computer vision. Instead of fixed categories, it enables ad-hoc, on-demand
@@ -180,31 +187,6 @@ Set your API keys as described above.
   diagonal) to be grouped into the same region. Useful for identifying
   physically connected components or preventing over-segmentation.
 
-### Output Format
-
-For each analyzed image, Throughmark's CLI generates several files:
-
-- **{image}.jpg** - The annotated image with highlighted regions and labels
-- **{image}.verification.jpg** - Internal grid overlay used for verification
-  pass
-- **{image}.json** - Analysis results including:
-  - Identified regions with cell coordinates
-  - Region descriptions and titles
-  - Overall image summary
-  - Token usage and cost metrics
-- **{image}.truth.jpg** - (When ground truth available) Visualization of ground
-  truth boxes
-
-For example, analyzing `car1.jpg` produces:
-
-```
-output/
-├── car1.jpg              # Highlighted regions
-├── car1.verification.jpg # Grid overlay
-├── car1.json            # Analysis data
-└── car1.truth.jpg       # Ground truth (if available)
-```
-
 ## Command Line Interface
 
 Throughmark includes two CLI tools for quick testing and batch processing.
@@ -253,9 +235,9 @@ The batch processor:
 - Shows token usage and cost summary
 - Uses the same prompt hierarchy as single image mode
 
-### Output Files
+## Output Files
 
-For each analyzed image, Throughmark's CLI generates several files:
+For each analyzed image, Throughmark generates several files:
 
 - **{image}.jpg** - The annotated image with highlighted regions and labels
 - **{image}.verification.jpg** - Internal grid overlay used for verification
