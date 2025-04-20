@@ -1,0 +1,40 @@
+# Source files
+src/
+*.ts
+*.tsx
+
+# Tests
+*.test.ts
+*.spec.ts
+test/
+tests/
+vitest.config.ts
+
+# Development
+.git/
+.github/
+.gitignore
+.prettierrc
+.eslintrc*
+.editorconfig
+.env*
+.env.sample
+.env.local
+.npmrc
+.pnpm-debug.log
+pnpm-lock.yaml
+
+# Samples and output
+samples/
+output/
+example_output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db 

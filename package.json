@@ -1,13 +1,42 @@
 {
   "name": "throughmark",
   "version": "0.1.0",
-  "description": "Image grid overlay system",
+  "description": "Describe features to annotate images",
   "type": "module",
-  "exports": "./dist/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "bin": {
     "throughmark": "./dist/bin/cli.js"
   },
-  "license": "UNLICENSED",
+  "files": [
+    "dist",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "keywords": [
+    "image-analysis",
+    "computer-vision",
+    "llm",
+    "annotation",
+    "grid",
+    "spatial-analysis"
+  ],
+  "author": "Throughmark Contributors",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/throughmark/throughmark.git"
+  },
+  "bugs": {
+    "url": "https://github.com/throughmark/throughmark/issues"
+  },
+  "homepage": "https://github.com/throughmark/throughmark#readme",
   "scripts": {
     "build": "tsc",
     "test": "pnpm build && vitest run",
@@ -17,7 +46,9 @@
     "batch": "pnpm build && node dist/bin/batch.js ${1:-samples/automobile} ${2:-openai} ${3:-gpt-4o} ${4:-\"Highlight toothbrushes\"}",
     "format": "prettier --write .",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "prepare": "pnpm build",
+    "prepublishOnly": "pnpm test && pnpm lint"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
@@ -39,6 +70,9 @@
     "prettier": "^3.5.3",
     "typescript": "^5.8.3",
     "vitest": "^3.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "pnpm": {
     "ignoredBuiltDependencies": [
