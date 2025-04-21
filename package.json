@@ -1,7 +1,7 @@
 {
   "name": "throughmark",
-  "version": "0.0.5",
-  "description": "Describe features to annotate images",
+  "version": "0.0.6",
+  "description": "Find and Annotate Features in Images, From Objects to Concepts",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
