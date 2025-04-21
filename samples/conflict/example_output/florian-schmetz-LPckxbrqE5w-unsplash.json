@@ -1,17 +1,9 @@
 {
   "regions": [
     {
-      "title": "YES Sign",
-      "description": "The word 'YES' on the top section",
+      "title": "YES/NO decision conflict",
+      "description": "This region contains the words 'YES' and 'NO' on separate signs, representing the primary conflict or dichotomy in the image.",
       "cells": [
-        "B3",
-        "B3",
-        "B3",
-        "B3",
-        "B4",
-        "B4",
-        "B4",
-        "B4",
         "C3",
         "C3",
         "C3",
@@ -19,13 +11,7 @@
         "C4",
         "C4",
         "C4",
-        "C4"
-      ]
-    },
-    {
-      "title": "NO Sign",
-      "description": "The word 'NO' on the bottom section",
-      "cells": [
+        "C4",
         "G3",
         "G3",
         "G3",
@@ -33,24 +19,16 @@
         "G4",
         "G4",
         "G4",
-        "G4",
-        "H3",
-        "H3",
-        "H3",
-        "H3",
-        "H4",
-        "H4",
-        "H4",
-        "H4"
+        "G4"
       ]
     }
   ],
-  "summary": "The primary conflict features two distinct regions: 'YES' and 'NO' signs, with no cells removed.",
+  "summary": "All identified cells are part of a single, connected region illustrating the primary conflict between YES and NO, and no cells needed to be removed.",
   "tokens": {
-    "input": 8691,
-    "output": 444,
-    "total": 9135,
-    "cost": 0.0261675,
-    "modelName": "gpt-4o"
+    "input": 8643,
+    "output": 338,
+    "total": 8981,
+    "cost": 0.01999,
+    "modelName": "gpt-4.1"
   }
 }

@@ -1,24 +1,17 @@
 {
   "regions": [
     {
-      "title": "Toothbrush Head and Handle",
-      "description": "This region contains the toothbrush head and part of the handle.",
+      "title": "Single toothbrush region",
+      "description": "This region contains the entirety of a single electric toothbrush, spanning from the brush head to the handle.",
       "cells": [
         "A2",
         "A2",
         "A2",
         "A2",
-        "A3",
-        "A3",
-        "A3",
         "B2",
         "B2",
         "B2",
         "B2",
-        "B3",
-        "B3",
-        "B3",
-        "B3",
         "C2",
         "C2",
         "C2",
@@ -27,9 +20,6 @@
         "C3",
         "C3",
         "C3",
-        "C4",
-        "C4",
-        "D3",
         "D3",
         "D3",
         "D3",
@@ -56,12 +46,12 @@
       ]
     }
   ],
-  "summary": "The identified cells collectively form a single region representing the toothbrush, with no cells removed as they all contribute to the depiction of the toothbrush.",
+  "summary": "All highlighted cells form one contiguous region representing a single toothbrush. There were no low-confidence or extraneous cells to remove; all cells are valid and connected.",
   "tokens": {
-    "input": 8751,
-    "output": 548,
-    "total": 9299,
-    "cost": 0.0273575,
-    "modelName": "gpt-4o"
+    "input": 8721,
+    "output": 425,
+    "total": 9146,
+    "cost": 0.020842,
+    "modelName": "gpt-4.1"
   }
 }

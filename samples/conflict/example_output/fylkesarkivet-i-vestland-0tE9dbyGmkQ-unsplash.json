@@ -1,11 +1,11 @@
 {
   "regions": [
     {
-      "title": "Primary Conflict",
-      "description": "The main area of conflict showing people interacting physically.",
+      "title": "Central conflict between two figures",
+      "description": "This region contains the primary conflict, depicting two individuals engaged in physical confrontation. The area includes both figures' upper bodies, arms, and part of their lower bodies.",
       "cells": [
-        "B5",
-        "B5",
+        "C4",
+        "C4",
         "C4",
         "C4",
         "C5",
@@ -19,6 +19,7 @@
         "D4",
         "D4",
         "D4",
+        "D4",
         "D5",
         "D5",
         "D5",
@@ -27,6 +28,8 @@
         "D6",
         "D6",
         "D6",
+        "E4",
+        "E4",
         "E4",
         "E4",
         "E5",
@@ -40,12 +43,12 @@
       ]
     }
   ],
-  "summary": "The image clearly depicts a physical interaction primarily in the middle region, with no cells requiring removal due to the clear evidence of conflict.",
+  "summary": "All highlighted cells form one contiguous region representing the main physical conflict between two individuals; no cells needed to be removed as all are confidently part of the primary conflict.",
   "tokens": {
-    "input": 5634,
-    "output": 427,
-    "total": 6061,
-    "cost": 0.018355,
-    "modelName": "gpt-4o"
+    "input": 5643,
+    "output": 452,
+    "total": 6095,
+    "cost": 0.014901999999999999,
+    "modelName": "gpt-4.1"
   }
 }

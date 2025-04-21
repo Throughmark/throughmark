@@ -1,24 +1,27 @@
 {
   "regions": [
     {
-      "title": "Shoulder Region",
-      "description": "Area containing shoulders",
+      "title": "Shoulder and upper torso region",
+      "description": "This region covers both shoulders and the upper chest, spanning across the full width of the highlighted area, which is consistent with the expected position of shoulders in a frontal portrait.",
       "cells": [
-        "C1",
-        "C1",
-        "D1",
-        "D1",
-        "D2",
-        "D2",
-        "D2",
-        "C3",
-        "C3",
-        "C3",
+        "C2",
+        "C2",
+        "C2",
+        "C2",
         "C4",
         "C4",
         "C4",
         "C5",
         "C5",
+        "C5",
+        "C5",
+        "D2",
+        "D2",
+        "D2",
+        "D2",
+        "D3",
+        "D3",
+        "D3",
         "D5",
         "D5",
         "D5",
@@ -26,12 +29,12 @@
       ]
     }
   ],
-  "summary": "The highlighted regions accurately represent the shoulder area.",
+  "summary": "Most identified cells correspond well to the expected location of shoulders in the image, forming a broad, connected band across the upper torso. Central cells with lower confidence and less visual alignment to the shoulders were removed for accuracy.",
   "tokens": {
-    "input": 8656,
-    "output": 274,
-    "total": 8930,
-    "cost": 0.02438,
-    "modelName": "gpt-4o"
+    "input": 8683,
+    "output": 407,
+    "total": 9090,
+    "cost": 0.020622,
+    "modelName": "gpt-4.1"
   }
 }

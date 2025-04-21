@@ -1,28 +1,32 @@
 {
   "regions": [
     {
-      "title": "Rear bumper damage",
-      "description": "Visible damage on the rear bumper area",
+      "title": "Rear bumper damage region",
+      "description": "This region covers the rear bumper area of the vehicle, where visible damage is present. All identified cells are physically connected and represent the highlighted area showing clear evidence of damage.",
       "cells": [
-        "H3",
-        "H3",
-        "I3",
-        "I3",
-        "I3",
-        "I4",
         "I4",
         "I4",
         "I5",
-        "I5"
+        "I5",
+        "I5",
+        "I5",
+        "I6",
+        "I6",
+        "I6",
+        "I6",
+        "I7",
+        "I7",
+        "I7",
+        "I7"
       ]
     }
   ],
-  "summary": "All identified cells with visible damage on the rear bumper were retained.",
+  "summary": "All identified cells are part of a single connected region covering the damaged section of the rear bumper. The highlighted area accurately represents the location of vehicle damage.",
   "tokens": {
-    "input": 8639,
-    "output": 265,
-    "total": 8904,
-    "cost": 0.024247499999999998,
-    "modelName": "gpt-4o"
+    "input": 8651,
+    "output": 287,
+    "total": 8938,
+    "cost": 0.019598,
+    "modelName": "gpt-4.1"
   }
 }

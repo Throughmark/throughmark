@@ -1,12 +1,9 @@
 {
   "regions": [
     {
-      "title": "Primary Conflict Region",
-      "description": "Area depicting the primary conflict",
+      "title": "Antelope conflict beneath elephant",
+      "description": "This region contains the two antelopes engaged in a physical contest, locked horns, representing the primary conflict in the image. The cells are contiguous, forming a single region.",
       "cells": [
-        "G2",
-        "G2",
-        "G2",
         "G3",
         "G3",
         "G3",
@@ -35,12 +32,12 @@
       ]
     }
   ],
-  "summary": "All identified cells are connected and depict the primary conflict region without any removals.",
+  "summary": "All marked cells clearly correspond to the region where two antelopes are engaged in a conflict below the elephant, and there are no disconnected or low-confidence cells to remove. The primary conflict is accurately localized.",
   "tokens": {
-    "input": 8679,
-    "output": 339,
-    "total": 9018,
-    "cost": 0.025087500000000002,
-    "modelName": "gpt-4o"
+    "input": 8670,
+    "output": 375,
+    "total": 9045,
+    "cost": 0.02034,
+    "modelName": "gpt-4.1"
   }
 }

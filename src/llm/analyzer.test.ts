@@ -12,7 +12,7 @@ import type { LLMClient, InitialResponse, LLMResponse } from "./types.js";
 const mockClient: LLMClient = {
   analyze: vi.fn(),
   analyzePair: vi.fn(),
-  getModel: vi.fn().mockReturnValue("gpt-4o-mini"),
+  getModel: vi.fn().mockReturnValue("gpt-4.1-mini"),
 };
 
 vi.mock("./clients/anthropic.js", () => ({
@@ -110,14 +110,14 @@ describe("ImageAnalyzer", () => {
   describe("cost calculation", () => {
     it("should calculate OpenAI costs correctly", async () => {
       const analyzer = new ImageAnalyzer(
-        { provider: "openai", model: "gpt-4o-mini" },
+        { provider: "openai", model: "gpt-4.1-mini" },
         { rows: 13, cols: 13 }
       );
       const mockTokens = { input: 1000, output: 100 };
 
-      // gpt-4o-mini rates: $0.15/1M input, $0.60/1M output
+      // gpt-4.1-mini rates: $0.40/1M input, $1.60/1M output
       const cost = analyzer["calculateCost"](mockTokens);
-      expect(cost).toBeCloseTo(0.00015 + 0.00006); // $0.00021
+      expect(cost).toBeCloseTo(0.0004 + 0.00016);
     });
 
     it("should calculate Anthropic costs correctly", async () => {
@@ -309,7 +309,7 @@ describe("ImageAnalyzer", () => {
     it("should calculate OpenAI costs correctly", async () => {
       const mockTokens = { input: 1000, output: 100 };
 
-      // gpt-4o-mini rates: $0.15/1M input, $0.60/1M output
+      // gpt-4.1-mini rates: $0.15/1M input, $0.60/1M output
       const cost = analyzer["calculateCost"](mockTokens);
       expect(cost).toBeCloseTo(0.00015 + 0.00006); // $0.00021
     });

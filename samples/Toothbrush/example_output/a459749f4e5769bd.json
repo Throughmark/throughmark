@@ -1,21 +1,13 @@
 {
   "regions": [
     {
-      "title": "Toothbrushes in a cup",
-      "description": "Cluster of toothbrushes",
+      "title": "Cluster of toothbrushes in cup",
+      "description": "This region contains the heads and handles of several toothbrushes protruding from a cup, as well as a portion of toothpaste visible among them.",
       "cells": [
         "A6",
         "A6",
-        "A6",
-        "A6",
         "A7",
         "A7",
-        "A7",
-        "A7",
-        "B5",
-        "B5",
-        "B5",
-        "B6",
         "B6",
         "B6",
         "B6",
@@ -27,21 +19,21 @@
         "C5",
         "C5",
         "C5",
-        "C6",
-        "C6",
-        "C6",
-        "C6",
         "C7",
-        "C7"
+        "C7",
+        "C7",
+        "C7",
+        "D5",
+        "D5"
       ]
     }
   ],
-  "summary": "The toothbrushes are mostly grouped in the central region of the image, primarily in cells A6, A7, B5, B6, B7, C5, C6, and C7.",
+  "summary": "All identified cells form a single connected region representing the cluster of toothbrushes in the cup. No cells were removed, as each contains part of a toothbrush or is strongly connected to high-confidence detections.",
   "tokens": {
-    "input": 8691,
-    "output": 401,
-    "total": 9092,
-    "cost": 0.0257375,
-    "modelName": "gpt-4o"
+    "input": 8667,
+    "output": 345,
+    "total": 9012,
+    "cost": 0.020093999999999997,
+    "modelName": "gpt-4.1"
   }
 }

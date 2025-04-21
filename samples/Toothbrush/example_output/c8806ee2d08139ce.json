@@ -1,13 +1,9 @@
 {
   "regions": [
     {
-      "title": "Left Toothbrush",
-      "description": "The left toothbrush including the head and handle.",
+      "title": "Left toothbrush",
+      "description": "This region contains the left (pink and blue) toothbrush, including the bristles and handle.",
       "cells": [
-        "B2",
-        "B2",
-        "B2",
-        "B2",
         "C2",
         "C2",
         "C2",
@@ -15,7 +11,6 @@
         "D2",
         "D2",
         "D2",
-        "D3",
         "E3",
         "E3",
         "E3",
@@ -31,8 +26,8 @@
       ]
     },
     {
-      "title": "Right Toothbrush",
-      "description": "The right toothbrush including the head and handle.",
+      "title": "Right toothbrush",
+      "description": "This region contains the right (blue and red) toothbrush, including the bristles and handle.",
       "cells": [
         "B5",
         "B5",
@@ -44,7 +39,6 @@
         "D5",
         "D5",
         "D5",
-        "D5",
         "E5",
         "E5",
         "E5",
@@ -56,18 +50,16 @@
         "G5",
         "G5",
         "G5",
-        "G5",
-        "G4",
-        "G4"
+        "G5"
       ]
     }
   ],
-  "summary": "Two toothbrushes are identified and grouped into two separate regions based on their positions.",
+  "summary": "There are two distinct toothbrushes present in the image, each clearly highlighted by a contiguous region of high-confidence cells. All included cells show clear evidence of the requested feature. Only one duplicate vote was removed to maintain accurate vote counts.",
   "tokens": {
-    "input": 8754,
-    "output": 564,
-    "total": 9318,
-    "cost": 0.027525,
-    "modelName": "gpt-4o"
+    "input": 8727,
+    "output": 517,
+    "total": 9244,
+    "cost": 0.02159,
+    "modelName": "gpt-4.1"
   }
 }

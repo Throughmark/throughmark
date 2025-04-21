@@ -1,12 +1,12 @@
 {
   "regions": [
     {
-      "title": "Central Conflict",
-      "description": "Main area depicting the conflict",
+      "title": "Central violent confrontation",
+      "description": "This region contains the core scene of the primary conflict, with armed figures in direct physical confrontation, gunfire, and visible chaos. This includes both the advancing line of soldiers and the crowd in opposition, focusing on the most active area of the skirmish.",
       "cells": [
         "C3",
         "C3",
-        "C4",
+        "C3",
         "C4",
         "C4",
         "C4",
@@ -21,6 +21,8 @@
         "C7",
         "C7",
         "C7",
+        "C7",
+        "D3",
         "D3",
         "D3",
         "D4",
@@ -41,12 +43,16 @@
         "D7",
         "E3",
         "E3",
+        "E3",
+        "E4",
         "E4",
         "E4",
         "E4",
         "E5",
         "E5",
         "E5",
+        "E5",
+        "E6",
         "E6",
         "E6",
         "E6",
@@ -56,12 +62,12 @@
       ]
     }
   ],
-  "summary": "The identified region captures the central conflict scene in the image.",
+  "summary": "The primary conflict is strongly concentrated in the central region of the image, where the opposing groups are clearly engaged. The identified cells form one large, connected area, accurately capturing the main clash.",
   "tokens": {
-    "input": 5682,
-    "output": 551,
-    "total": 6233,
-    "cost": 0.019715,
-    "modelName": "gpt-4o"
+    "input": 5700,
+    "output": 712,
+    "total": 6412,
+    "cost": 0.017096,
+    "modelName": "gpt-4.1"
   }
 }

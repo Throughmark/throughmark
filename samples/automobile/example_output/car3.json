@@ -1,22 +1,14 @@
 {
   "regions": [
     {
-      "title": "Damage on vehicle side",
-      "description": "Visible damage on the side panel and door.",
+      "title": "Front left fender/wheel damage region",
+      "description": "This region highlights visible damage around the front left fender and wheel area of the black convertible vehicle.",
       "cells": [
-        "D5",
-        "D5",
-        "D6",
-        "D6",
         "E5",
         "E5",
         "E5",
-        "E6",
-        "E6",
-        "E6",
-        "E6",
-        "E7",
-        "E7",
+        "E5",
+        "F5",
         "F5",
         "F5",
         "F5",
@@ -24,26 +16,30 @@
         "F6",
         "F6",
         "F6",
-        "F7",
-        "F7",
+        "G5",
+        "G5",
         "G5",
         "G5",
         "G6",
         "G6",
         "G6",
         "G6",
-        "G7",
-        "G7",
-        "G7"
+        "H5",
+        "H5",
+        "H6",
+        "H6",
+        "H6",
+        "H7",
+        "H7"
       ]
     }
   ],
-  "summary": "The damage is concentrated on the vehicle's side panel and door.",
+  "summary": "All marked cells form a single contiguous region of vehicle damage on the front left fender/wheel area. No cells were removed as all contribute to the identified damage.",
   "tokens": {
-    "input": 8705,
-    "output": 374,
-    "total": 9079,
-    "cost": 0.0255025,
-    "modelName": "gpt-4o"
+    "input": 8690,
+    "output": 413,
+    "total": 9103,
+    "cost": 0.020684,
+    "modelName": "gpt-4.1"
   }
 }
