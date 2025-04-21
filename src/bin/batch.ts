@@ -7,7 +7,7 @@
  * Examples:
  *   yarn batch                                              # Uses samples/Toothbrush
  *   yarn batch samples/automobile                           # Custom directory
- *   yarn batch samples/misc openai gpt-4o "Find threats"   # All options
+ *   yarn batch samples/misc openai gpt-4.1 "Find threats"   # All options
  *
  * Features:
  * - Processes all JPG/PNG files in directory
@@ -200,7 +200,7 @@ const run = async () => {
   try {
     const targetDir = process.argv[2] || DEFAULT_DIR;
     const provider = process.argv[3] || "anthropic";
-    const model = process.argv[4] || "gpt-4o";
+    const model = process.argv[4] || "gpt-4.1";
     const defaultPrompt = process.argv[5] || "Highlight toothbrushes";
 
     const files = await readdir(targetDir);

@@ -13,7 +13,7 @@ export class OpenAIClient implements LLMClient {
     model?: string
   ) {
     this.apiKey = apiKey || env.openaiApiKey;
-    this.model = model || "gpt-4o";
+    this.model = model || "gpt-4.1";
     this.client = new OpenAI({
       apiKey: this.apiKey,
     });

@@ -7,7 +7,7 @@
  * Examples:
  *   yarn start                                              # Uses defaults
  *   yarn start samples/automobile/car1.jpg                  # Custom image
- *   yarn start image.jpg openai gpt-4o "Find damage"       # All options
+ *   yarn start image.jpg openai gpt-4.1 "Find damage"       # All options
  *
  * The prompt can be specified in multiple ways (in order of precedence):
  * 1. Image-specific file: <image>.prompt.txt
@@ -143,7 +143,7 @@ const run = async () => {
     const imagePath =
       process.argv[2] || "samples/Toothbrush/c8806ee2d08139ce.jpg";
     const provider = process.argv[3] || "openai";
-    const model = process.argv[4] || "gpt-4o";
+    const model = process.argv[4] || "gpt-4.1";
     const defaultPrompt = process.argv[5] || "Highlight toothbrushes";
 
     if (!existsSync(imagePath)) {
