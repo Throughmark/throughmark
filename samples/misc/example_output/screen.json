@@ -1,28 +1,64 @@
 {
   "regions": [
     {
-      "title": "Eurail Logo",
-      "description": "Logo of Eurail",
+      "title": "Eurail logo in top left",
+      "description": "This region contains the Eurail logo, which is clearly visible in the top left corner.",
       "cells": [
-        "A2",
-        "A2",
-        "B2",
-        "B2",
-        "B2",
-        "B2",
+        "B3",
+        "B3",
         "B3",
         "B3",
         "B4",
-        "B4"
+        "B4",
+        "B4",
+        "B4",
+        "C3",
+        "C3",
+        "C4",
+        "C4"
+      ]
+    },
+    {
+      "title": "Book/Itinerary icon logo",
+      "description": "This region contains a book or itinerary icon logo, located in the lower center part of the image.",
+      "cells": [
+        "J7",
+        "J7",
+        "J7",
+        "K7",
+        "K7",
+        "K7"
+      ]
+    },
+    {
+      "title": "No reservation icon logo",
+      "description": "This region contains an icon logo representing trains that don't need reservations, to the right of the previous logo.",
+      "cells": [
+        "J11",
+        "J11",
+        "J11",
+        "K11",
+        "K11",
+        "K11"
+      ]
+    },
+    {
+      "title": "Sustainability/eco icon logo",
+      "description": "This region contains an icon logo likely related to sustainability, located further to the right.",
+      "cells": [
+        "J15",
+        "J15",
+        "K15",
+        "K15"
       ]
     }
   ],
-  "summary": "The identified cells clearly depict the Eurail logo, with no need to remove any cells.",
+  "summary": "All high-confidence cells correspond to visible logos or icon logos in the Eurail website screenshot. No low-confidence or irrelevant cells were identified, and the cells have been grouped into four logical logo/icon regions.",
   "tokens": {
-    "input": 11689,
-    "output": 228,
-    "total": 11917,
-    "cost": 0.031502499999999996,
-    "modelName": "gpt-4o"
+    "input": 11743,
+    "output": 505,
+    "total": 12248,
+    "cost": 0.027526000000000002,
+    "modelName": "gpt-4.1"
   }
 }

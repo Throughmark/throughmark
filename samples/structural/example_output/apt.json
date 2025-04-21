@@ -1,15 +1,17 @@
 {
   "regions": [
     {
-      "title": "Crack in Building Facade",
-      "description": "Visible cracks and structural damage on the building facade",
+      "title": "Major vertical and diagonal cracks in building structure",
+      "description": "This region contains prominent structural cracks running vertically and diagonally across multiple floors of the building facade, indicating significant structural damage.",
       "cells": [
         "A9",
         "A9",
-        "A9",
         "A10",
         "A10",
-        "A10",
+        "A11",
+        "A11",
+        "B8",
+        "B8",
         "B9",
         "B9",
         "B9",
@@ -23,6 +25,8 @@
         "B11",
         "C8",
         "C8",
+        "C8",
+        "C8",
         "C9",
         "C9",
         "C9",
@@ -31,11 +35,10 @@
         "C10",
         "C10",
         "C10",
-        "C11",
-        "C11",
         "D8",
         "D8",
         "D8",
+        "D8",
         "D9",
         "D9",
         "D9",
@@ -44,8 +47,6 @@
         "D10",
         "D10",
         "D10",
-        "D11",
-        "D11",
         "E8",
         "E8",
         "E8",
@@ -54,18 +55,17 @@
         "E9",
         "E9",
         "E9",
-        "E10",
         "E10",
         "E10"
       ]
     }
   ],
-  "summary": "The image shows a significant crack running vertically and horizontally across multiple floors of the building, indicating structural weakness.",
+  "summary": "The identified region highlights a contiguous area of significant structural damage, evidenced by extensive cracking across several floors. All marked cells are part of one large, visually connected region of structural weakness.",
   "tokens": {
     "input": 5718,
-    "output": 578,
-    "total": 6296,
-    "cost": 0.020075000000000003,
-    "modelName": "gpt-4o"
+    "output": 567,
+    "total": 6285,
+    "cost": 0.015972,
+    "modelName": "gpt-4.1"
   }
 }

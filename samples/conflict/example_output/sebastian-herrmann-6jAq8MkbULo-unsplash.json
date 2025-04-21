@@ -1,15 +1,16 @@
 {
   "regions": [
     {
-      "title": "Central Conflict",
-      "description": "Area of primary discussion or disagreement.",
+      "title": "Central argument between two individuals",
+      "description": "This region captures the area where two individuals are visibly engaged in a heated discussion—the man in the dark suit gesturing with his hand and the man in glasses pointing back. Their facial expressions, hand gestures, and body language suggest the primary conflict in this meeting.",
       "cells": [
         "C5",
         "C5",
         "C5",
         "C6",
         "C6",
-        "C6",
+        "C7",
+        "C7",
         "C7",
         "C7",
         "D5",
@@ -17,25 +18,25 @@
         "D5",
         "D6",
         "D6",
-        "D6",
         "D7",
         "D7",
         "D7",
-        "E6",
-        "E6",
-        "E6",
-        "E7",
+        "D7",
+        "D8",
+        "D8",
+        "E5",
+        "E5",
         "E7",
         "E7"
       ]
     }
   ],
-  "summary": "The identified region represents the central area of conflict or discussion, with a focus on the interaction between individuals. One cell was removed due to lower confidence.",
+  "summary": "The detected region accurately highlights the primary conflict within the meeting, centered on the intense interaction between two individuals. No identified cells were removed, as all contributed to the main area of contention.",
   "tokens": {
-    "input": 5604,
-    "output": 346,
-    "total": 5950,
-    "cost": 0.01747,
-    "modelName": "gpt-4o"
+    "input": 5607,
+    "output": 403,
+    "total": 6010,
+    "cost": 0.014438,
+    "modelName": "gpt-4.1"
   }
 }

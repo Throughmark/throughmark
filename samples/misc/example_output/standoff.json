@@ -1,42 +1,55 @@
 {
   "regions": [
     {
-      "title": "Left Figure",
-      "description": "Area containing the left figure",
+      "title": "Left-side standing figure (threat)",
+      "description": "Region containing the leftmost standing figure, likely interpreted as a threat. The area covers the full-body silhouette of the character, mostly in the leftmost columns.",
       "cells": [
         "D1",
         "D1",
         "D1",
-        "D1"
+        "D1",
+        "E1",
+        "E1",
+        "E1",
+        "E1",
+        "F1",
+        "F1",
+        "F1",
+        "F1"
       ]
     },
     {
-      "title": "Center Figure",
-      "description": "Area containing the center figure",
+      "title": "Central standing figure (potential threat)",
+      "description": "Region containing the central standing figure, likely interpreted as a threat. The area covers the full-body silhouette of the character in the middle.",
       "cells": [
-        "D4",
-        "D4",
-        "D4",
         "D4"
       ]
     },
     {
-      "title": "Right Figure",
-      "description": "Area containing the right figure",
+      "title": "Right-side standing figure (threat)",
+      "description": "Region containing the rightmost standing figure, likely interpreted as a threat. The area covers the full-body silhouette of the character, mostly in the rightmost columns.",
       "cells": [
         "D8",
         "D8",
         "D8",
-        "D8"
+        "D8",
+        "E8",
+        "E8",
+        "E8",
+        "E8",
+        "F8",
+        "F8",
+        "F8",
+        "F8"
       ]
     }
   ],
-  "summary": "All identified cells correspond to figures in the scene and are grouped accordingly.",
+  "summary": "Most high-confidence (darker) cells correspond to the left and right standing figures, who are likely interpreted as threats in this scene. The central figure (D4) received very low confidence and was removed for lack of clear evidence as a threat. The remaining regions are clearly separated, with no new cells added.",
   "tokens": {
-    "input": 8635,
-    "output": 269,
-    "total": 8904,
-    "cost": 0.0242775,
-    "modelName": "gpt-4o"
+    "input": 8677,
+    "output": 557,
+    "total": 9234,
+    "cost": 0.021810000000000003,
+    "modelName": "gpt-4.1"
   }
 }

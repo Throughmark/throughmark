@@ -1,24 +1,33 @@
 {
   "regions": [
     {
-      "title": "Toothbrush Bristles and Head",
-      "description": "This region contains the bristles and head of the toothbrush.",
+      "title": "Toothbrush head and bristles",
+      "description": "This region contains the head and bristles of a toothbrush, covering the main area where the bristles are visible.",
       "cells": [
+        "B1",
+        "B1",
+        "B1",
+        "B2",
         "B2",
         "B2",
         "B2",
         "B3",
         "B3",
         "B3",
+        "B3",
+        "B4",
         "B4",
         "B4",
         "B4",
         "B5",
         "B5",
         "B5",
+        "B5",
         "B6",
         "B6",
         "B6",
+        "B6",
+        "B7",
         "B7",
         "B7",
         "B7",
@@ -106,12 +115,12 @@
       ]
     }
   ],
-  "summary": "The identified cells accurately represent the toothbrush, including its bristles and head.",
+  "summary": "All high-confidence cells are concentrated over the visible toothbrush head and bristles, forming a single contiguous region. Only C8 was removed due to lack of clear evidence of containing the toothbrush. No other regions were identified.",
   "tokens": {
-    "input": 8901,
-    "output": 938,
-    "total": 9839,
-    "cost": 0.0316325,
-    "modelName": "gpt-4o"
+    "input": 8928,
+    "output": 946,
+    "total": 9874,
+    "cost": 0.025424000000000002,
+    "modelName": "gpt-4.1"
   }
 }

@@ -1,26 +1,36 @@
 {
   "regions": [
     {
-      "title": "Rumored Location of Atlantis",
-      "description": "Area highlighted for potential location of Atlantis",
+      "title": "Primary Atlantis rumor region",
+      "description": "Clustered area in the North Atlantic off the west coast of Africa, where Atlantis is most commonly rumored to be located according to Plato and popular speculation.",
       "cells": [
         "D8",
         "D8",
         "D8",
-        "D8",
+        "D9",
+        "D9",
+        "D9",
         "E8",
         "E8",
         "E8",
-        "E8"
+        "E8",
+        "E9",
+        "E9",
+        "E9",
+        "E9",
+        "F8",
+        "F8",
+        "F9",
+        "F9"
       ]
     }
   ],
-  "summary": "The highlighted region in cells D8 and E8 is where Atlantis is rumored to be.",
+  "summary": "All input cells form a single, connected region corresponding to the most cited location for the lost city of Atlantis. No cells were removed as they all contribute to this contiguous high-confidence area.",
   "tokens": {
-    "input": 11708,
-    "output": 209,
-    "total": 11917,
-    "cost": 0.03136,
-    "modelName": "gpt-4o"
+    "input": 11738,
+    "output": 318,
+    "total": 12056,
+    "cost": 0.02602,
+    "modelName": "gpt-4.1"
   }
 }

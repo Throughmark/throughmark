@@ -1,55 +1,54 @@
 {
   "regions": [
     {
-      "title": "Front damage to gray car",
-      "description": "Visible damage at the front of the gray car",
+      "title": "Front-end damage to silver car",
+      "description": "Severe crumpling and deformation at the front of the silver car, indicating a major collision.",
       "cells": [
-        "C2",
-        "C2",
-        "C2",
         "C3",
         "C3",
         "C3",
         "C3",
         "C4",
         "C4",
-        "D2",
-        "D2",
+        "C4",
         "D3",
         "D3",
         "D3",
         "D3",
-        "D4",
-        "D4"
+        "E3",
+        "E3",
+        "E3",
+        "E3"
       ]
     },
     {
-      "title": "Rear damage to orange vehicle",
-      "description": "Visible damage at the rear of the orange vehicle",
+      "title": "Front-end damage to yellow van",
+      "description": "Heavy damage to the front of the yellow van, with visible collapse and deformation.",
       "cells": [
         "C8",
         "C8",
         "C8",
-        "C8",
         "C9",
         "C9",
-        "C9",
         "D8",
         "D8",
         "D8",
         "D8",
-        "D9",
-        "D9",
-        "D9"
+        "E8",
+        "E8",
+        "E8",
+        "E8",
+        "E9",
+        "E9"
       ]
     }
   ],
-  "summary": "The image shows damage to two vehicles: significant front damage to a gray car and rear damage to an orange vehicle. The identified cells accurately capture these features.",
+  "summary": "Two distinct regions of vehicle damage are present: the front of the silver car and the front of the yellow van. All highlighted cells accurately correspond to major visible damage.",
   "tokens": {
-    "input": 8702,
-    "output": 448,
-    "total": 9150,
-    "cost": 0.026235,
-    "modelName": "gpt-4o"
+    "input": 8699,
+    "output": 440,
+    "total": 9139,
+    "cost": 0.020918,
+    "modelName": "gpt-4.1"
   }
 }

@@ -1,25 +1,18 @@
 {
   "regions": [
     {
-      "title": "Toothbrush Region",
-      "description": "Area containing the toothbrush in packaging",
+      "title": "Main toothbrush and packaging region",
+      "description": "This region contains the visible toothbrush, including both the brush head and handle, as seen through the packaging.",
       "cells": [
         "A3",
         "A3",
         "A3",
-        "B3",
-        "B3",
-        "C2",
-        "C2",
-        "C2",
+        "A3",
         "C3",
         "C3",
         "C3",
         "C3",
-        "D2",
-        "D2",
-        "D2",
-        "D2",
+        "D3",
         "D3",
         "D3",
         "D3",
@@ -34,6 +27,7 @@
         "E4",
         "E4",
         "E4",
+        "F2",
         "F2",
         "F2",
         "F3",
@@ -51,16 +45,20 @@
         "G4",
         "G4",
         "G4",
-        "G4"
+        "G4",
+        "H4",
+        "H4",
+        "H4",
+        "H4"
       ]
     }
   ],
-  "summary": "The identified region contains a toothbrush within the packaging, spanning multiple connected grid cells.",
+  "summary": "All high-confidence cells collectively form one contiguous region that accurately highlights the toothbrush inside the packaging. No cells were removed as all are justified by their confidence and visual evidence.",
   "tokens": {
-    "input": 8748,
-    "output": 540,
-    "total": 9288,
-    "cost": 0.027270000000000003,
-    "modelName": "gpt-4o"
+    "input": 8742,
+    "output": 510,
+    "total": 9252,
+    "cost": 0.021564,
+    "modelName": "gpt-4.1"
   }
 }
