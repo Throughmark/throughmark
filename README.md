@@ -6,9 +6,9 @@ Throughmark outputs the same input image overlaid with configurable circles,
 arrows, caption, and highlights to document the requested features.
 
 <!-- prettier-ignore-start -->
-|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/automobile/example_output/car0.jpg?raw=true"><br/>**"Find damage"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/Toothbrush/example_output/a459749f4e5769bd.jpg?raw=true"><br/>**"Find toothbrushes"**|
+|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/automobile/example_output/car0.jpg?raw=true"><br/>**"Find damage"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/structural/example_output/logs.jpg?raw=true"><br/>**"Find damage"**|
 |:--:|:--:|
-|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/structural/example_output/logs.jpg?raw=true"><br/>**"Find damage"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/conflict/example_output/fylkesarkivet-i-vestland-0tE9dbyGmkQ-unsplash.jpg?raw=true"><br/>**"Find primary conflict"**|
+|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/Toothbrush/example_output/c8806ee2d08139ce.jpg?raw=true"><br/>**"Find toothbrushes"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/conflict/example_output/hidde-rensink-KrbTI4X1x4U-unsplash.jpg?raw=true"><br/>**"Find primary conflict"**|
 |<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/structural/example_output/apt.jpg?raw=true"><br/>**"Find damage"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/structural/example_output/house1.jpg?raw=true"><br/>**"Find damage"**|
 |<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/misc/example_output/standoff.jpg?raw=true"><br/>**"Find threats"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/misc/example_output/world.png?raw=true"><br/>**"Find Atlantis"**|
 <!-- prettier-ignore-end -->
