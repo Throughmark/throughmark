@@ -267,8 +267,10 @@ const run = async () => {
       );
     }
 
-    let overallTruthSet = new Set<string>();
-    let overallPredSet = new Set<string>();
+    let totalFoundCells = 0;
+    let totalTruthCells = 0;
+    let totalMatchingCells = 0;
+    let totalExtraCells = 0;
     let filesWithAccuracy = 0;
 
     for (const file of imageFiles) {
@@ -386,11 +388,11 @@ const run = async () => {
           matchingCells: intersection.size,
         }).forEach(line => console.log(chalk.blue(line)));
 
-        // Aggregate truth grid cells from truth boxes
-        overallTruthSet = new Set([...overallTruthSet, ...fileTruthSet]);
-
-        // Aggregate predicted grid cells from analysis results
-        overallPredSet = new Set([...overallPredSet, ...filePredSet]);
+        // Aggregate metrics across all images
+        totalFoundCells += filePredSet.size;
+        totalTruthCells += fileTruthSet.size;
+        totalMatchingCells += intersection.size;
+        totalExtraCells += filePredSet.size - intersection.size;
 
         filesWithAccuracy++;
       } catch (error: unknown) {
@@ -410,21 +412,18 @@ const run = async () => {
     }
 
     if (filesWithAccuracy > 0) {
-      const intersection = new Set(
-        [...overallPredSet].filter(cell => overallTruthSet.has(cell))
-      );
-      const union = new Set([...overallTruthSet, ...overallPredSet]);
-      const precision = overallPredSet.size
-        ? intersection.size / overallPredSet.size
-        : 0;
-      const recall = overallTruthSet.size
-        ? intersection.size / overallTruthSet.size
-        : 0;
+      const precision =
+        totalFoundCells > 0 ? totalMatchingCells / totalFoundCells : 0;
+      const recall =
+        totalTruthCells > 0 ? totalMatchingCells / totalTruthCells : 0;
       const f1 =
         precision + recall
           ? (2 * precision * recall) / (precision + recall)
           : 0;
-      const iou = union.size ? intersection.size / union.size : 0;
+      const iou =
+        totalTruthCells + totalExtraCells > 0
+          ? totalMatchingCells / (totalTruthCells + totalExtraCells)
+          : 0;
 
       // Update the overall metrics display
       console.log(chalk.bold.green("\n🎯 Overall Accuracy Metrics:"));
@@ -433,9 +432,9 @@ const run = async () => {
         recall,
         f1,
         iou,
-        truthCells: overallTruthSet.size,
-        predictedCells: overallPredSet.size,
-        matchingCells: intersection.size,
+        truthCells: totalTruthCells,
+        predictedCells: totalFoundCells,
+        matchingCells: totalMatchingCells,
       }).forEach(line => console.log(chalk.green(line)));
     }
   } catch (error) {

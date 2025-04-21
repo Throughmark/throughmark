@@ -1,26 +1,32 @@
-# Throughmark: Describe features, get image annotations
+# Throughmark: Find and Annotate Features in Images, From Objects to Concepts
 
-Let's start with some examples. We send the unmarked-up photos below to
-Throughmark along with a simple prompt, such as "find damage." From this,
-Throughmark outputs the same input image overlaid with configurable circles,
-arrows, caption, and highlights to document the requested features.
+Throughmark is an intelligent image analysis system that lets you find anything
+in images by simply describing it. Whether you're looking for damage,
+toothbrushes, threats, or any other feature, Throughmark will analyze the image
+and overlay precise annotations highlighting exactly what you asked for.
+
+Unlike traditional computer vision systems limited to predefined categories,
+Throughmark can understand and analyze:
+
+- Technical details: "Find signs of water damage in this building inspection"
+- Subjective qualities: "Identify confrontational body language in this security
+  footage"
+- Complex patterns: "Locate areas where the paint shows signs of improper
+  application"
+- Abstract concepts: "Find visual elements that create a sense of unease"
+
+Throughmark preserves the original image exactly as is, overlaying a dynamic
+grid system for precise spatial identification. This ensures perfect image
+fidelity while leveraging the power of large language models for flexible,
+on-demand analysis.
 
 <!-- prettier-ignore-start -->
-|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/automobile/example_output/car0.jpg?raw=true"><br/>**"Find damage"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/Toothbrush/example_output/a459749f4e5769bd.jpg?raw=true"><br/>**"Find toothbrushes"**|
+|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/automobile/example_output/car0.jpg?raw=true"><br/>**"Find damage"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/structural/example_output/logs.jpg?raw=true"><br/>**"Find damage"**|
 |:--:|:--:|
-|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/structural/example_output/logs.jpg?raw=true"><br/>**"Find damage"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/conflict/example_output/fylkesarkivet-i-vestland-0tE9dbyGmkQ-unsplash.jpg?raw=true"><br/>**"Find primary conflict"**|
+|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/Toothbrush/example_output/c8806ee2d08139ce.jpg?raw=true"><br/>**"Find toothbrushes"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/conflict/example_output/hidde-rensink-KrbTI4X1x4U-unsplash.jpg?raw=true"><br/>**"Find primary conflict"**|
 |<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/structural/example_output/apt.jpg?raw=true"><br/>**"Find damage"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/structural/example_output/house1.jpg?raw=true"><br/>**"Find damage"**|
 |<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/misc/example_output/standoff.jpg?raw=true"><br/>**"Find threats"**|<img width="450" src="https://github.com/Throughmark/throughmark/blob/develop/samples/misc/example_output/world.png?raw=true"><br/>**"Find Atlantis"**|
 <!-- prettier-ignore-end -->
-
-Throughmark is an intelligent image analysis system that goes beyond traditional
-computer vision. Instead of fixed categories, it enables ad-hoc, on-demand
-identification of any visual features using the power of large language models.
-
-Unlike systems that use AI to recreate or modify images, Throughmark preserves
-the original image exactly as is, overlaying a dynamic grid system for precise
-spatial identification. This approach ensures perfect image fidelity while
-leveraging off-the-shelf LLMs for analysis.
 
 By overlaying a dynamic grid system and leveraging off-the-shelf LLMs,
 Throughmark can:
@@ -29,18 +35,6 @@ Throughmark can:
 - Provide detailed descriptions of what it finds
 - Generate precise spatial coordinates for each identified region
 - Validate results against ground truth when available
-
-Unlike traditional computer vision APIs that are limited to predefined
-categories, Throughmark can adapt to any analysis task - from concrete ("find
-rust spots") to abstract ("identify tense moments") to complex ("locate areas
-showing signs of structural weakness"). The system can understand and analyze:
-
-- Technical details: "Find signs of water damage in this building inspection"
-- Subjective qualities: "Identify confrontational body language in this security
-  footage"
-- Complex patterns: "Locate areas where the paint shows signs of improper
-  application"
-- Abstract concepts: "Find visual elements that create a sense of unease"
 
 All through simple natural language prompts, with precise spatial identification
 of relevant regions.
