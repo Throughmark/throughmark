@@ -378,5 +378,5 @@ levels:
 ## Licensing
 
 - Community: AGPL‑3.0‑only. See [LICENSE](LICENSE).
-- Commercial: Need to use PROJECT without AGPL obligations or for closed‑source
-  use? [COMMERCIAL.md](COMMERCIAL.md) has details.
+- Commercial: Need to use our software without AGPL obligations or for
+  closed‑source use? [COMMERCIAL.md](COMMERCIAL.md) has details.
