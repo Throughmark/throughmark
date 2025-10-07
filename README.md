@@ -375,7 +375,8 @@ levels:
      usage, and cost.
    - Generates a highlighted image that visualizes the detected regions.
 
-## Contributing
+## Licensing
 
-We welcome contributions! Please read our
-[Contributing Guidelines](CONTRIBUTING.md) before submitting any changes.
+- Community: AGPL‑3.0‑only. See [LICENSE](LICENSE).
+- Commercial: Need to use PROJECT without AGPL obligations or for closed‑source
+  use? [COMMERCIAL.md](COMMERCIAL.md) has details.
